@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School projects</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/school.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>School projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="hobby-projects.html">Hobby projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="tab-container">
+    <section class="tabs">
+        <button class="tab" data-tab="proj1">Memory game</button>
+        <button class="tab" data-tab="proj2">Antiphishing game</button>
+        <button class="tab" data-tab="proj3">Tic Tac Toe</button>
+        <button class="tab" data-tab="proj4">Kanban-board</button>
+        <button class="tab" data-tab="proj5">Snake Multiplayer Game</button>
+    </section>
+
+    <section class="tab-content hidden" id="proj1">
+        <h1>Memory Game Android</h1>
+        <h2>Created with: Kotlin. <br><br>This is a Android game created in Android Studios using Kotlin. It's a memory-game where the player has to pair pictures to advance, the point is to clear a level as fast as you can. 
+            Your best score is saved and showcased in the menu. The game contains 3 different levels, easy, medium and hard. <br><br> Link to Github: <a href="https://github.com/ollin99/Memory_game_android" target="_blank">https://github.com/ollin99/Memory_game_android</a></h2>
+        <img src="img/memorygame_menu.png" alt="Game menu">
+        <img src="img/memorygame_easy.png" alt="Level easy">
+        <img src="img/memorygame_medium.png" alt="Level medium">
+        <img src="img/memorygame_hard.png" alt="Level hard">
+        <img src="img/memorygame_playing.png" alt="Gameplay">
+        <img src="img/memorygame_gameover.png" alt="Gameoverscreen">
+    </section>
+
+    <section class="tab-content hidden" id="proj2">
+        <h1>Antiphishing Game</h1>
+        <h2>Created with: HTML, CSS & JS.<br><br> This game is about teaching the players to watch out for different suspect parts of emails that might make it a phishing attempt.
+            We made it so the player has to beat the first level to advance to next level and so on, it should make the player feel some kind of progression and development.
+            The plan was to have a final level were the player would get to show everything that it has learned.<br><br>
+            The gameplay consists of highlighting the parts that might be suspect. The player has to find all the correct answers to unlock the next level.
+            The game gets progressively harder each new level. <br><br> Link to Github: <a href="https://github.com/ollin99/Antiphishing_email_game" target="_blank">https://github.com/ollin99/Antiphishing_email_game</a>
+        </h2>
+        <img src="img/phishinggame_menu1.png" alt="Game menu">
+        <img src="img/phishinggame_gameplay1.png" alt="Gameplay">
+        <img src="img/phishinggame_victory.png" alt="Victory screen">
+        <img src="img/phishinggame_hint.png" alt="Hint screen">
+        <img src="img/phishinggame_gameplay2.png" alt="Gameplay with highlight">
+        <img src="img/phishinggame_levelclear.png" alt="Level clear">
+        <img src="img/phishinggame_menu2.png" alt="Game menu 2 levels">
+
+    </section>
+
+    <section class="tab-content hidden" id="proj3">
+        <h1>Tic Tac Toe</h1>
+        <h2>Created with: HTML, CSS, JS & PHP <br><br> This game is a simple Tic Tac Toe game, but created mostly with PHP and a database. The players can create player-profiles, that is saved in the database.
+        Every game is saved so it can later be looked at, with a scoreboard. <br><br> Link to Github: <a href="https://github.com/ollin99/tic_tac_toe" target="_blank">https://github.com/ollin99/tic_tac_toe</a>
+        </h2>
+        <img src="IMG/tictactoe_menu.png" alt="Game Menu">
+        <img src="IMG/tictactoe_createplayer.png" alt="Create player-profile">
+        <img src="IMG/tictactoe_chooseplayer.png" alt="Choose created player">
+        <img src="IMG/tictactoe_gameplay1.png" alt="Gameplay">
+        <img src="IMG/tictactoe_gameplay2.png" alt="Gameplay in progress">
+        <img src="IMG/tictactoe_gameover.png" alt="Gameoverscreen">
+        <img src="IMG/tictactoe_scoreboard.png" alt="Scoreboard">
+    </section>
+
+    <section class="tab-content hidden" id="proj4">
+        <h1>Kanban-board</h1>
+        <h2>Created with: HTML, CSS, JS<br><br> This website is made to create and keep track of different tasks. There is three columns; To Do, In Progress and Done. 
+            A big part of this project was focusing on getting a responsive layout. So the view for smaller screens is different compared to larger screens.
+            I also made it possible to save the state localy, so everytime you open it up, it should be in the same state.<br>
+            You can type in the owner of the tasks, move them between columns and delete them.<br><br> Link to Github: <a href="https://github.com/ollin99/kanban_board" target="_blank">https://github.com/ollin99/kanban_board</a>
+        </h2>
+        <img src="IMG/kanbanboard_firststate.png" alt="First state of website">
+        <img src="IMG/kanbanboard_addtask.png" alt="Add task screen">
+        <img src="IMG/kanbanboard_onetask.png" alt="One added task">
+        <img src="IMG/kanbanboard_moretasks.png" alt="More tasks">
+        <img src="IMG/kanbanboard_mobile1.png" alt="Mobile layout 1">
+        <img src="IMG/kanbanboard_mobile2.png" alt="Mobile layout 2">
+        <img src="IMG/kanbanboard_mobile3.png" alt="Mobile layout 3">
+    </section>
+
+    <section class="tab-content hidden" id="proj5">
+        <h1>Snake Mutliplayer Game</h1>
+        <h2>Created with: Java & JavaSwing<br><br> Work in progress...
+        </h2>
+    </section>
+  </div>
+  <script src="JS/school.js"></script>
+
+</body>
+</html>
