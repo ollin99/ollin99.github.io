@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>School projects</title>
+  <link rel="stylesheet" href="/CSS/style.css">
+  <link rel="stylesheet" href="/CSS/school.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>School projects</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="school-projects.html">School projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="tab-container">
+    <section class="tabs">
+        <button class="tab" data-tab="proj1">Circle game</button>
+        <button class="tab" data-tab="proj2">Card game</button>
+    </section>
+
+    <section class="tab-content hidden" id="proj1">
+        <h1>Circle Game Android</h1>
+        <h2>Created with: Kotlin. <br><br>This is a Android game created in Android Studios using Kotlin. It's a game where the player click on the correct colors to get points, there is two different game modes, time mode & endless mode. 
+           As time goes on in a level the spawn rate of the circles is increased. If the player presses three red circles the game is over. <br><br> Link to Github: <a href="https://github.com/ollin99/circle_game" target="_blank">https://github.com/ollin99/circle_game</a></h2>
+        <img src="img/circlegame_menu.png" alt="Game menu">
+        <img src="img/circlegame_endless1.png" alt="Empty level">
+        <img src="img/circlegame_start.png" alt="Start of level">
+        <img src="img/circlegame_progress.png" alt="Level in progress">
+        <img src="img/circlegame_gameover.png" alt="Gameover screen endless">
+        <img src="img/circlegame_timemode.png" alt="Level timemode">
+        <img src="img/circlegame_timesup.png" alt="Time's up">
+        <img src="img/circlegame_gameover2.png" alt="Gameover screen time">
+    </section>
+
+    <section class="tab-content hidden" id="proj2">
+      <h1>Card Game Godot</h1>
+      <h2>Created with: Godot. <br><br> This is an early state in trying to make a card rougelike. It's very much in progress, I have also touched on a bit of pixel art. 
+         </h2>
+      <img src="img/cardgame_prototype.png" alt="Early state in game">
+  </section>
+
+  </div>
+  <script src="JS/school.js"></script>
+</body>
+</html>
